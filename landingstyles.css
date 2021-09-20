@@ -1,0 +1,273 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 56px;
+}
+
+main{
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 7141px;
+}
+
+.headerContainer {
+    max-width: 1280px;
+    display: flex;
+}
+
+.mainMenuLink {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.mainMenu ul {
+    display: flex;
+    width: 50%;
+    min-width: 380px;
+    justify-content: space-between;
+}
+
+.mainMenu ul li {
+    list-style-type: none;
+}
+
+.mainMenu ul {
+    margin-top: 18px;
+    margin-left: 191px;
+}
+
+.phoneNumber{
+    position: absolute;
+    width: 163px;
+    height: 20px;
+    left: 825px;
+    top: 18px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    color: #3F3D56;
+}
+
+.callButton{
+
+    border: 0;
+    position: static;
+    width: 160px;
+    height: 20px;
+    left: 7px;
+    top: 10px;
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 7px;
+
+    position: absolute;
+    width: 174px;
+    height: 40px;
+    left: 1005px;
+    top: 8px;
+
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-radius: 20px;
+}
+
+#logo{
+    margin-top: 4px;
+    margin-left: 101px;
+}
+
+.firstContainer{
+    margin-top: 0px;
+    max-width: 1280px;
+    max-height: 7141px;
+    display: flex;
+}
+
+.mainTitle{
+    margin-left: 96px;
+    margin-top: 54px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 24px;
+}
+
+.secondText{
+    margin-top: 130px;
+    margin-left: 99px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.thirdText{
+    margin-top: 20px;
+    margin-left: 99px;
+    margin-bottom: 0px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.firstContainer hr{
+    width: 209px;
+    margin-top: 20px;
+    margin-left: 99px;
+    border: 1.5px solid #B4ABAB;
+    background-color: #B4ABAB;
+}
+
+#firstPic{
+    position: absolute;
+    margin-left: 593px;
+}
+
+.secondContainer{
+    margin-top: 0px;
+    max-width: 1280px;
+    display: flex;
+}
+
+.mainSecondTitle{
+    margin-left: 376px;
+    margin-top: 308px;
+    margin-bottom: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 24px;
+}
+
+.thirdContainer{
+    margin-top: 0px;
+    max-width: 1280px;
+    display: flex;
+}
+
+.fourthText{
+    margin-left: 108px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.thirdContainer hr{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 108px;
+    border: 1.5px solid #B4ABAB;
+    background-color: #B4ABAB;
+}
+
+.fifthText{
+    margin-left: 108px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#secondPic{
+    margin-left: 56px;
+    margin-top: 82px;
+}
+
+.fourthContainer{
+    margin-top: 0px;
+    max-width: 1280px;
+    display: flex;
+
+}
+
+.firstBlock h1{
+    position: absolute;
+    margin-left: 56px;
+    margin-top: 88px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.fourthContainer hr{
+    position: absolute;
+    width: 209px;
+    margin-top: 143px;
+    margin-left: 23px;
+    border: 1.5px solid #B4ABAB;
+    background-color: #B4ABAB;
+}
+
+.firstBlock h2{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 153px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.firstBlockPanel{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 90px;
+}
+
+.firstBlockPanel{
+    margin-top: 68px;
+}
+
+.mainThirdTitle{
+    margin-bottom: 0px;
+    margin-top: 120px;
+    margin-left: 246px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 24px;
+    color: #3F3D56;
+}
